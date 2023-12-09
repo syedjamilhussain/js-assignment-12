@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <h1 class="calculator"> Welcome To Calculate Me ! </h1>
+
+  <div class="cover">
+    <div class="mainbox">
+      <div class="simplehd">Simple Calculator</div>
+
+      <div class="mediumbox">
+        <div class="inputbox"> <input type="text" class="inputarea" id="inputarea" readonly></div>
+        <div class="buttonbox">
+          <div class="line1">
+            <tr>
+              <td><input type="button" value="AC" class="operators" id="btnAC" onclick="inputarea.value = '' "></td>
+              <td><input type="button" value="SqR" class="operators" id="btnsquare" onclick="squareRoot(event)">
+              </td>
+              <td><input type="button" value="%" class="operators" id="percentage" onclick="concatValues(event)"></td>
+              <td><input type="button" value="/" class="operatorsyello" id=" btndivide" onclick="concatValues(event) "
+                  name="" id=""></td>
+            </tr>
+          </div>
+          <div class="line2">
+            <tr>
+              <td><input type="button" value='7' class="operators" id="btn7" onclick="concatValues(event)"></td>
+              <td><input type="button" value="8" class="operators" id="btn8" onclick="concatValues(event)"></td>
+              <td><input type="button" value="9" class="operators" id="btn9" onclick="concatValues(event)"></td>
+              <td><input type="button" value="*" class="operatorsyello" id="btnmultiply"
+                  onclick="concatValues(event) "></td>
+            </tr>
+          </div>
+          <div class="line3">
+            <tr>
+              <td><input type="button" value="4" class="operators" id="btn4" onclick="concatValues(event)"></td>
+              <td><input type="button" value="5" class="operators" id="btn5" onclick="concatValues(event)"></td>
+              <td><input type="button" value="6" class="operators" id="btn6" onclick="concatValues(event)"></td>
+              <td><input type="button" value="-" class="operatorsyello" id="btnsubtrict"
+                  onclick="concatValues(event) "></td>
+            </tr>
+          </div>
+          <div class="line4">
+            <tr>
+              <td><input type="button" value="1" class="operators" id="btn1" onclick="concatValues(event) "></td>
+              <td><input type="button" value="2" class=" operators" id="btn2" onclick="concatValues(event) "></td>
+              <td><input type="button" value="3" class="operators" id="btn3" onclick="concatValues(event) "></td>
+              <td><input type="button" value="+" class="operatorsyello" id="btnplus" onclick="concatValues(event) ">
+              </td>
+            </tr>
+          </div>
+          <div class="line5">
+            <tr>
+              <td><input type="button" value="0" class="operators" id="btn0" onclick="concatValues(event) "></td>
+              <td><input type="button" value="." class="operators" id="btndout" onclick="concatValues(event) "></td>
+              <td><button class="operatorsyello" id="btnequalto" onclick="calculate(event)">=</button></td>
+            </tr>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+
+
+</body>
+
+</html>

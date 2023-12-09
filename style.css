@@ -1,0 +1,117 @@
+body {
+background: #9e6543;
+font-family: sans-serif;
+align-items: center;
+
+}
+.cover {
+    text-align: center;
+    width: fit-content;
+    background:blue;
+    height: 550px;
+    margin: auto;
+    border-radius: 40px 20px 80px 15px;
+    box-shadow: 50px 30px 20px 30px rgba(18, 18, 20, 0.562);
+
+    
+}
+
+.calculator {
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+    /* column-rule-color: aqua; */
+    font-size: 50px;
+    text-shadow: 5px 5px 5px rgb(36, 34, 34);
+    margin-top: 0%;
+    /* background: ; */
+
+}
+.mainbox {
+    border: solid 3px black;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    height: 80%vh;
+    border-radius:150px 50px;
+    padding: 20px;
+    background: black;
+    box-shadow: 2px 2px 2px gray;
+
+}
+.simplehd{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+    /* background: rgb(0, 225, 255); */
+    width:fit-content;
+    margin: auto;
+    
+}
+.mediumbox {
+    /* border: solid 3px black; */
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    height: 470px;
+    border-radius: 25px;
+    /* background: red;  */
+
+}
+.inputbox {
+    margin-top: 10px;
+    width: 350px;
+    height: 100px;
+    /* border: 2px solid black; */
+    margin: auto;
+    border-radius: 25px;
+}
+.inputarea {
+    height:  80%;
+    width: 300px;
+    /* box-shadow: 5px 10px gray; */
+    box-shadow: inset 3px 3px 10px 5px rgb(19, 19, 19) ;
+    border-radius: 50px 20px;
+    padding-inline: 20px;
+}
+.operators {
+    width: 60px;
+    margin: 5px;
+    margin-bottom:15px ;
+    height: 45px;
+    font-size: 25px;
+    font-size: bold;
+    font-family: sans-serif;
+    box-shadow: inset 3px 3px 10px 5px rgb(19, 19, 19) ;
+    transition: 0.25s all ease-in-out;
+
+
+}
+  .operatorsyello{
+    width: 60px;
+    margin: 5px;
+    margin-bottom:15px ;
+    height: 45px;
+    font-size: 35px;
+    font-size: bold;
+    font-family: sans-serif;
+    background: yellow;
+    box-shadow: inset 3px 3px 10px 5px rgb(19, 19, 19) ;
+    color:blue ;
+    transition: 0.25s all ease-in-out;
+
+
+
+
+  }
+
+  .operators:hover {
+    width: 90px;
+    border-radius:20%;
+  }
+  .operatorsyello:hover{
+    width: 90px;
+    border-radius:20%;
+
+  }
